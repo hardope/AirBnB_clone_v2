@@ -3,10 +3,7 @@
 # Prepare my webservers (web-01 & web-02)
 # deploy server
 sudo apt-get update
-if [ ! -x /usr/sbin/nginx ]; then
-	sudo apt-get update -y -qq && \
-	     sudo apt-get install -y nginx
-fi
+sudo apt-get install -y nginx
 sudo ufw allow 'Nginx HTTP'
 
 sudo mkdir -p /data/
