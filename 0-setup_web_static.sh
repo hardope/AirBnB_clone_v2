@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Prepare my webservers (web-01 & web-02)
 # deploy server
 sudo apt-get update
 sudo apt-get -y install nginx
