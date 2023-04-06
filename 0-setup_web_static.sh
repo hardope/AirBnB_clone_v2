@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 # deploy server
 sudo apt-get update
